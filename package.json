@@ -1,6 +1,6 @@
 {
   "name": "bigg-bundle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bigg task to bundle sources.",
   "main": "src/index.js",
   "scripts": {
