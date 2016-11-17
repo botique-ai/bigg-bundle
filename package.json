@@ -1,0 +1,24 @@
+{
+  "name": "bigg-bundle",
+  "version": "0.0.1",
+  "description": "Bigg task to bundle sources.",
+  "main": "src/index.js",
+  "scripts": {
+    "prepublish": "bigg compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/gulp-util": "^3.0.29",
+    "@types/node": "^6.0.48",
+    "@types/webpack": "^2.0.0",
+    "bigg": "^1.0.1",
+    "bigg-typescript": "^0.0.4",
+    "ts-node": "^1.7.0"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.13.3",
+    "webpack-node-externals": "^1.5.4"
+  }
+}
